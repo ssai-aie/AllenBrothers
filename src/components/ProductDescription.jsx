@@ -14,7 +14,7 @@ const ProductDescription = () => {
         
         {/* SALE Badge (Only Show if On Sale) */}
         {product.isOnSale && (
-          <span className="bg-danger px-3 rounded-5 text-white fw-medium">SALE</span>
+          <span className="bg-danger px-3 rounded-5 text-white fw-medium mb-2">SALE</span>
         )}
 
         {/* Product Name */}
