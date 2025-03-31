@@ -26,7 +26,7 @@ const SimilarProducts = () => {
       <h3>Similar Products You Might Like</h3>
 
       {/* Product Grid */}
-      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 position-relative w-100">
+      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 position-relative w-100 product-grid m-auto">
         {similarProducts.slice(startIndex, startIndex + ITEMS_PER_PAGE).map((product) => (
           <div className="col" key={product.id}>
             <div className="card h-100 shadow-sm product-card">
