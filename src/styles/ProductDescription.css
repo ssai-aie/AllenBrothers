@@ -1,0 +1,9 @@
+.weight-option{
+    transition: 0.3s ease-in-out;
+    border: 2px solid #eeeeee;  /* Default border color */
+}
+
+.weight-option:hover{
+    border: 2px solid #1e4783 ;
+    background: #e2eeff;
+}

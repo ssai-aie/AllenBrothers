@@ -1,0 +1,32 @@
+.main{
+    padding: 20px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 25px;
+}
+body .text-primary,a {
+    color: #1e4783 !important;
+}
+
+body .bg-primary {
+    background: #1e4783 !important;
+}
+
+body .btn-primary{
+    background: #1e4783 !important;
+
+}
+body .text-danger{
+    color: #98002e !important;
+}
+body .bg-danger{
+    background: #98002e !important;
+}
+
+@media (max-width:768px){
+    .main{
+        padding: 20px;
+    }
+}

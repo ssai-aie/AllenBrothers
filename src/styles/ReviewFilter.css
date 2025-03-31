@@ -1,0 +1,10 @@
+.filter-container{
+    flex-direction: row;
+    gap: 10px;
+}
+
+@media (max-width:768px){
+    .filter-container{
+        flex-direction: column;
+    }
+}

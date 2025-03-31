@@ -1,0 +1,22 @@
+.footer-container{
+    flex-direction: row;
+}
+.compnay-info-section{
+    width: 25%;
+}
+
+@media (max-width:768px){
+    footer{
+        width: 100%;
+    }
+    .footer-container{
+        flex-direction: column;
+        min-width: 100%;
+    }
+    .footer-company-desc{
+        min-width: 100%;
+    }
+    .compnay-info-section{
+        width: 100%;
+    }
+}

@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.searchbar{
+    width: 100%;
+}
+
+.search-container {
+    position: relative;
+    width: 50%;
+}
+
+.search-input {
+    width: 100%;
+    padding-right: 40px; /* Space for icon */
+}
+
+.search-icon {
+    position: absolute;
+    right: 13px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    cursor: pointer;
+}
+
+.menu-icon,.close-icon{
+    display: none;
+}
+/* Main Searchbar */
+.searchbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 15px 20px;
+    color: white;
+    position: relative;
+  }
+  
+  /* Search bar and text elements (Hidden on mobile) */
+  .search-container,
+  .searchbar p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Hide search, phone, and sign-in in mobile */
+  
+  /* My Cart (Always visible) */
+  .cart {
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    color: black;
+    box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: right 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    display: none;
+    z-index: 1050;
+  }
+  
+  .sidebar.open {
+    right: 0;
+  }
+  
+  /* Close button */
+  .close-icon {
+    font-size: 20px;
+    cursor: pointer;
+    align-self: flex-end;
+  }
+  
+
+  @media (max-width: 768px) {
+.searchbar {
+justify-content: space-between;
+padding: 0px;
+}
+    .search-container,
+    .searchbar p:not(.cart) {
+      display: none;
+    }
+    
+    /* Show hamburger icon */
+    .menu-icon,.close-icon {
+      display: block;
+      font-size: 24px;
+      cursor: pointer;
+    }
+    .search-container{
+        width: 100%;
+    }
+    .sidebar .search-container,
+    .sidebar p {
+      display: flex;
+    }
+    .sidebar div{
+        display: flex;
+    }
+
+    .sidebar{
+        display: flex;
+    }
+    .sidebar p{
+        display: block;
+        color: white;
+    }
+  }
+  

@@ -1,0 +1,37 @@
+.main-product-img {
+    max-width: 100%;
+    width: 100%;
+    aspect-ratio: 1 / 1; /* Ensures height = width */
+    object-fit: contain; /* Ensures the full image is visible */
+}
+
+.product-img-container{
+    flex-direction: row;
+}
+.thumbnail-container{
+    flex-direction: column;
+}
+.bestfor-section{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media (max-width:768px){
+.product-img-container{
+    flex-direction: column;
+    width: 100%;
+
+}
+.thumbnail-container{
+    flex-direction: row;
+    width: 100%;
+}
+.bestfor-section{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0px;
+}
+}

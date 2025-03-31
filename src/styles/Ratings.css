@@ -1,0 +1,16 @@
+.ratings-container{
+    flex-direction: row;
+    gap: 25px;
+}
+
+
+@media (max-width:768px){
+    .ratings-container{
+        flex-direction: column;
+        width: 100%;
+        gap: 25px;
+    }
+    .progress-bar-container{
+        min-width: 100%;
+    }
+}

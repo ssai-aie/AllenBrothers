@@ -1,0 +1,12 @@
+.footer-last-container{
+flex-direction: row;
+justify-content: space-between;
+}
+@media (max-width:768px){
+    .footer-last-container{
+        flex-direction: column;
+        padding: 20px 10px;
+        gap: -10px;
+        justify-content: center;
+        }
+}

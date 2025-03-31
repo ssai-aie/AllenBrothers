@@ -1,0 +1,27 @@
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    padding-bottom: 5rem;
+}
+
+.hero-section:first-child {
+    width: 55%; /* 🖼️ Product Image Section - 55% */
+}
+
+.hero-section:last-child {
+    width: 45%; /* 📝 Product Description Section - 45% */
+}
+
+@media (max-width:768px){
+    .hero-container{
+    flex-direction: column;
+    }
+    .hero-section:first-child {
+        width: 100%; /* 🖼️ Product Image Section - 55% */
+    }
+    
+    .hero-section:last-child {
+        width: 100%; /* 📝 Product Description Section - 45% */
+    }
+}

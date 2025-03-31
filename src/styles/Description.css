@@ -1,0 +1,27 @@
+.description-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.description-section {
+    flex: 1;
+    max-width: 50%;
+}
+.product-video{
+    height: 500px;
+}
+
+@media (max-width:768px){
+.description-container {
+flex-direction: column;
+}
+.description-section {
+    flex: 1;
+    max-width: 100%;
+}
+.product-video{
+    height: 350px;
+}
+}

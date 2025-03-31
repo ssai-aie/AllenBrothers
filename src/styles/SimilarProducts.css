@@ -1,0 +1,58 @@
+  .product-image {
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .product-image img {
+    transition: transform 0.3s ease-in-out;
+    min-width: 200px;
+    min-height: 280px;
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .arrow-left,.arrow-right {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    display: inline-block;
+    width: auto !important; /* Force auto width */
+    max-width: fit-content; /* Ensures it only takes required space */
+    padding: 0;
+    margin: 0;
+    color: black;
+    background-color: white;
+    background: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.arrow-left {
+    left: 20px;
+}
+
+.arrow-right {
+    right: 0px;
+}
+
+@media (max-width:768px){
+  .arrow-left,.arrow-right {
+  top: 100%;
+  }
+
+  .arrow-left {
+    left: 130px;
+}
+
+.arrow-right {
+    right: 100px;
+}
+.similar-products-container{
+  margin-bottom: 30px;
+}
+}
+
+
+
+  
