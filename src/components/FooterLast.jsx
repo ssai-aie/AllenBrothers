@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/FooterLast.css"
 const FooterLast = () => {
   return (
-    <footer className="bg-primary w-100 main py-2 text-white d-flex align-items-center footer-last-container">
+    <footer className="bg-primary w-100 main py-2 text-white d-flex flex-row align-items-center footer-last-container">
       
       {/* 🏷️ Copyright Notice */}
       <div>© 2024 Allen Brothers. All Rights Reserved.</div>
