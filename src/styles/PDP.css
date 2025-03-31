@@ -24,6 +24,9 @@ body .text-danger{
 body .bg-danger{
     background: #98002e !important;
 }
+img{
+    object-fit: cover;
+}
 
 @media (max-width:768px){
     .main{

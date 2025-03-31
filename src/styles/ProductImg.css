@@ -5,6 +5,7 @@
     object-fit: contain; /* Ensures the full image is visible */
 }
 
+
 .product-img-container{
     flex-direction: row;
 }

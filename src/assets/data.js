@@ -76,76 +76,75 @@ export const productData = {
       id: 1,
       name: "Allen Brothers Angus Filet Mignon",
       price: "$69.95",
-      image: "https://example.com/angus-filet.jpg", // Replace with actual image URL
+      image: "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/124894/usda-prime-black-angus-filet-mignon-barrel-cut.d8cc2329b1333ba156de95d06ab84cb4.jpg?ixlib=react-9.9.0&ar=1%3A1&fit=crop&w=1080&auto=format",
     },
     {
       id: 2,
       name: "Wagyu Filet Mignon",
       price: "$69.95",
-      image: "https://example.com/wagyu-filet.jpg",
+      image: "https://cdn.shopify.com/s/files/1/0012/4328/3505/files/120721.WagyuShop.Filet.025_600x600.jpg?v=1639117518",
     },
     {
       id: 3,
       name: "USDA Prime Bone-In Filet Mignon",
       price: "$69.95",
-      image: "https://example.com/prime-filet.jpg",
+      image: "https://assets2.kansascitysteaks.com/dyn-images/pdp_hero/Filet_Bone_In_SU17-8cb495950f0d9c9f73829717c9bf1ebb.jpg",
     },
     {
       id: 4,
       name: "Individual Beef Wellington",
       price: "$69.95",
-      image: "https://example.com/beef-wellington.jpg",
+      image: "https://static01.nyt.com/images/2022/02/09/dining/04fortworex-individual-beef-wellingtons/04for-tworex-individual-beef-wellingtons-mediumSquareAt3X.jpg",
     },
     {
       id: 5,
-      name: "Allen Brothers Angus Filet Mignon",
-      price: "$69.95",
-      image: "https://example.com/angus-filet.jpg", // Replace with actual image URL
+      name: "Dry-Aged Porterhouse Steak",
+      price: "$89.95",
+      image: "https://shop.lafrieda.com/cdn/shop/products/ChopHousePorter-1496-2.jpg?v=1659498137&width=1080",
     },
     {
       id: 6,
-      name: "Wagyu Filet Mignon",
-      price: "$69.95",
-      image: "https://example.com/wagyu-filet.jpg",
+      name: "Japanese A5 Wagyu Striploin",
+      price: "$249.95",
+      image: "https://petruscocaviar.com/cdn/shop/files/Screenshot2024-02-28131158_1080x.png?v=1735330759",
     },
     {
       id: 7,
-      name: "USDA Prime Bone-In Filet Mignon",
-      price: "$69.95",
-      image: "https://example.com/prime-filet.jpg",
+      name: "Prime Ribeye Steak",
+      price: "$79.95",
+      image: "https://www.allenbrothers.com/dam/AB/catalog/images/product/Prime-Boneless-Ribeye_2021-06.jpg",
     },
     {
       id: 8,
-      name: "Individual Beef Wellington",
-      price: "$69.95",
-      image: "https://example.com/beef-wellington.jpg",
+      name: "Tomahawk Ribeye Steak",
+      price: "$119.95",
+      image: "https://i0.wp.com/fedandfull.com/wp-content/uploads/2019/02/Grilled-tomahawk-rib-eye.jpg?resize=1200%2C1600&ssl=1",
     },
     {
       id: 9,
-      name: "Allen Brothers Angus Filet Mignon",
-      price: "$69.95",
-      image: "https://example.com/angus-filet.jpg", // Replace with actual image URL
+      name: "Dry-Aged New York Strip",
+      price: "$99.95",
+      image: "https://newyorkprimebeef.com/cdn/shop/files/ny-prime-beef-steaks-Dry-Aged-USDA-Prime-Bone-In-NY-Strip-Cooked-Horiz.jpg?v=1701900925&width=1100",
     },
     {
       id: 10,
-      name: "Wagyu Filet Mignon",
-      price: "$69.95",
-      image: "https://example.com/wagyu-filet.jpg",
+      name: "Kobe Beef Sliders",
+      price: "$59.95",
+      image: "https://afm-6b83.kxcdn.com/wp-content/uploads/2017/11/KobeBeefSilders_0316.jpg",
     },
     {
       id: 11,
-      name: "USDA Prime Bone-In Filet Mignon",
-      price: "$69.95",
-      image: "https://example.com/prime-filet.jpg",
+      name: "Chateaubriand Roast",
+      price: "$159.95",
+      image: "https://www.dukeshill.co.uk/cdn/shop/articles/20230427150215-chateaubriand_1024x1024.jpg?v=1727426983",
     },
     {
       id: 12,
-      name: "Individual Beef Wellington",
-      price: "$69.95",
-      image: "https://example.com/beef-wellington.jpg",
+      name: "Prime Brisket",
+      price: "$129.95",
+      image: "https://leelands.co.nz/cdn/shop/products/Beef5_Brisket_1296x.jpg?v=1637791623",
     },
   ];
-
 
   export const reviewsData = [
     {
@@ -328,11 +327,11 @@ export const product = {
 
 export const productImages = {
   thumbnails: [
-    { type: "image", src: "/images/thumb1.jpg", alt: "Thumbnail 1" },
-    { type: "image", src: "/images/thumb2.jpg", alt: "Thumbnail 2" },
-    { type: "video", src: "/videos/demo.mp4", alt: "Product Video" }
+    { type: "image", src: "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/124894/usda-prime-black-angus-filet-mignon-barrel-cut.d8cc2329b1333ba156de95d06ab84cb4.jpg?ixlib=react-9.9.0&ar=1%3A1&fit=crop&w=1080&auto=format", alt: "Thumbnail 1" },
+    { type: "image", src: "https://trailcrestfarm.com/wp-content/uploads/2023/03/angus-filet-mignon-steak-prepared.jpg", alt: "Thumbnail 2" },
+    { type: "video", src: "https://www.youtube.com/embed/psp702ghkaI?si=LtEs_uOKapMG93Bm", alt: "Product Video" }
   ],
-  mainImage: "/images/main-product.jpg",
+  mainImage: "https://goldbelly.imgix.net/uploads/showcase_media_asset/image/124894/usda-prime-black-angus-filet-mignon-barrel-cut.d8cc2329b1333ba156de95d06ab84cb4.jpg?ixlib=react-9.9.0&ar=1%3A1&fit=crop&w=1080&auto=format",
   bestFor: [
     { icon: "fa-solid fa-burger", text: "Grilling" },
     { icon: "fa-solid fa-kitchen-set", text: "On the Skillet" }

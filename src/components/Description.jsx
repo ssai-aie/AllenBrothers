@@ -9,13 +9,8 @@ const Description = () => {
       <CookingInstructions />
       </div>
       {/* Product Video */}
-      <div className="description-section">
-      <video 
-        src="" 
-        width="100%" 
-        className="product-video rounded-3 border"
-        controls
-      />
+      <div className="description-section w-100">
+      <iframe width="100%" height="500" className="rounded-2" src="https://www.youtube.com/embed/psp702ghkaI?si=LtEs_uOKapMG93Bm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
       
     </div>
