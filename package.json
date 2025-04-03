@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Sujan2332.github.io/AllenBrothers",
+  "homepage": "https://ssai-aie.github.io/AllenBrothers",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

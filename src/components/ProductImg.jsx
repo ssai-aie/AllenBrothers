@@ -15,8 +15,26 @@ const ProductImg = () => {
     return match ? match[1] : "";
   
   };
-  
-   
+
+  const zoomImage = (e) => {
+    const img = e.target;
+    const { left, top, width, height } = img.getBoundingClientRect();
+
+    const mouseX = e.clientX - left;
+    const mouseY = e.clientY - top;
+
+    const mouseXPercent = (mouseX / width) * 100;
+    const mouseYPercent = (mouseY / height) * 100;
+
+    img.style.transformOrigin = `${mouseXPercent}% ${mouseYPercent}%`;
+    img.style.transform = 'scale(1.5)';
+  };
+
+  const resetZoom = () => {
+    const img = document.querySelector('.main-product-img-container img');
+    img.style.transformOrigin = "center center";
+    img.style.transform = "scale(1)";
+  };   
 
   return (
     <div className="d-flex justify-content-center align-items-start gap-3 w-100 product-img-container">
@@ -41,14 +59,16 @@ const ProductImg = () => {
       {/* 📌 Main Product Image & "Best For" Section */}
       <div className="d-flex flex-column gap-3 justify-content-center align-items-start w-100">
         <div className="d-flex flex-column gap-3 justify-content-center align-items-center w-100">
-          
           {/* 🖼️ Main Product Image (Now Responsive) */}
           {mainContent.type==="image" ? (
+          <div className="main-product-img-container"  onMouseMove={zoomImage} onMouseLeave={resetZoom}>
             <img 
             src={mainContent.src} 
             alt="Main Product" 
             className="main-product-img border rounded-2"
+            onMouseMove={zoomImage} onMouseLeave={resetZoom}
           />
+          </div>
           ):(
             <iframe  src={mainContent.src} className="rounded-1 main-product-img" allow="autoplay" controls></iframe>
           )}

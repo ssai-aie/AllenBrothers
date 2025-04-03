@@ -5,6 +5,19 @@
     object-fit: contain; /* Ensures the full image is visible */
 }
 
+.main-product-img-container{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    height: 100%;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden; /* Prevent the image from going outside its container */
+    width: 100%;
+}
+
 
 .product-img-container{
     flex-direction: row;
